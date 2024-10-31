@@ -45,3 +45,21 @@ Zeitenjagt is a web application that allows car enthusiasts to log and share the
 2. **Install dependencies**:
    ```bash
    npm install
+3. **Set up environment variables**:
+   - Create a `.env` file in the root directory and add the following variables:
+     ```plaintext
+     DB_USER=yourDatabaseUser
+     DB_HOST=localhost
+     DB_NAME=carperformance
+     DB_PASSWORD=yourDatabasePassword
+     DB_PORT=5432
+     PORT=3000
+     ```
+4. **Initialize the database**:
+   - Set up your PostgreSQL database using the schema defined in the `models/` folder.
+
+5. **Run the server**:
+   ```bash
+   node app.js
+The server should now be running at http://localhost:3000.
+
