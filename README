@@ -1,1 +1,47 @@
-Test
+# Zeitenjagt
+
+Zeitenjagt is a web application that allows car enthusiasts to log and share their 100-200 km/h acceleration times, compare performance metrics, and view detailed specifications. This app aims to replace a Facebook group where users currently share their acceleration data by providing a streamlined, dedicated platform for tracking and comparing car performance.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [API Endpoints](#api-endpoints)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Log and share 100-200 km/h acceleration times.
+- Select car make and model from a comprehensive list.
+- Enter relevant details such as car weight, fuel type, tuning modifications, and performance metrics.
+- View and compare user-submitted performance records.
+- Secure user authentication and profile management.
+
+## Technologies
+
+- **Frontend**: React (coming soon)
+- **Backend**: Node.js, Express
+- **Database**: PostgreSQL
+- **Version Control**: Git and GitHub
+- **Hosting**: To be determined
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** (version 14 or later)
+- **PostgreSQL** (for database setup)
+- **Git** (for version control)
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone git@github.com:CarstenRecker/Zeitenjagt.git
+   cd Zeitenjagt
+2. **Install dependencies**:
+   ```bash
+   npm install
